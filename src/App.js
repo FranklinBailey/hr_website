@@ -3,7 +3,8 @@ import { HashRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
-
+import Login from './views/login';
+import AddUser from './views/adduser';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
 
           <Nav.Item>
             <Nav.Link href='/'>
-              <Link className='Add User' to="/adduser" />
+              <Link className='Add User' to="/addUser" />
             </Nav.Link>
           </Nav.Item>
 
